@@ -88,5 +88,5 @@ export const TwitterShareCount = () => {
     'remove it from your code.');
 };
 export const EmailShareCount = () => {
-  throw new Error(`Email does not support share count`);
+  throw new Error('Email does not support share count');
 };
