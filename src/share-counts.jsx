@@ -87,3 +87,6 @@ export const TwitterShareCount = () => {
     'the Twitter API was shut down and there is no replacement. Please ' +
     'remove it from your code.');
 };
+export const EmailShareCount = () => {
+  throw new Error(`Email does not support share count`);
+};
